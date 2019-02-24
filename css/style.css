@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.arrow {
+  float: right;
+  width: 10%;
+  padding: 10px 5px 10px 10px;
+  text-align: right;
+  color: lightgray;
+}
+
+img {
+  max-width: 100%;
+  padding-top: .5px;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 10px 10px;
+  width: 420px;
+  height: 114px;
+  background-color: #EBECE7;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.heading h1 {
+  font-weight: bolder;
+  font-weight: bold;
+  line-height: 41px;
+  font-size: 34px;
+  color: #192853;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+.line h1, .destination-frequency, .arrow {
+	display: inline-block;
+}
+
+.arrow-left, .arrow-left h1, .title, .star-right {
+  display: inline-block;
+  align-items: center;
+  color: #192853;
+}
+.arrow-left {
+  float:left;
+  width: 20%;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  width: 60%;
+}
+
+.star-right {
+  float: right;
+  color: #192853;
+  width: 10%;
+}
+
+.heading {
+  padding-top: 20px;
+  display: inline-table;
+  width: 100%;
+}
+
+.line h1 {
+  float: left;
+  width: 15%;
+  margin-top: 5px;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  color: white;
+  background-color: #165F36;
+}
+
+.destination-frequency {
+  width: 75%;
+  line-height: 20px;
+  padding: 5px 0 5px 5px;
+  color: #192853;
+}
+
+.destination-frequency h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.destination.frequency h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.bus {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  float: left;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.bus:hover {
+  background-color: darkgray;
+}
+
+.bus-list {
+  width: 100%;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 575px){
+   .preview {
+    display: inline-block;
+    height: 20em;
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   .preview {
+    margin: 1%;
+    width: 22%;
+  }
+}

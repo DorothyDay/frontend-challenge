@@ -40,6 +40,7 @@ nav {
 .container {
   margin: 0 auto;
   width: 100%;
+  position: relative;
 }
 
 .line h1, .destination-frequency, .arrow {
@@ -48,13 +49,19 @@ nav {
 
 .arrow-left, .arrow-title, .title, .star-right {
   display: inline-block;
+  vertical-align: middle;
   color: #192853;
 }
 
+.arrow-title {
+  position: absolute;
+  padding-top: 10px;
+}
+
 .title {
-  text-align: center;
   font-weight: bold;
-  width: 60%;
+  text-align: center;
+  width: 80%;
 }
 
 .star-right {

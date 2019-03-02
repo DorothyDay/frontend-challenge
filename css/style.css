@@ -119,12 +119,25 @@ nav {
 
 .frequency li:nth-child(1) {
   font-weight: bold;
-  color: red;
 }
 
 .frequency li:nth-child(2){
   font-size: 14px;
   font-style: italic;
+}
+
+.frequency-special li {
+  display: inline;
+  width: 70%;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 5px 0 5px 5px;
+  color: #192853;
+}
+
+.frequency-special li:nth-child(1) {
+  font-weight: bold;
+  color: red;
 }
 
 .arrow {
@@ -155,6 +168,7 @@ nav {
 
 .bottom-navbar li:hover {
   background-color: #165F36;
+  color: white;
 }
 
 @media screen and (min-width: 575px){

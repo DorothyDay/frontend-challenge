@@ -43,6 +43,7 @@ nav {
   color: #192853;
   width: 5%;
   margin-right: 10px;
+  margin-top: 8px;
 }
 
 .heading {
@@ -82,6 +83,7 @@ nav {
   float: left;
   width: 15%;
   margin-top: 5px;
+  margin-right: 6px;
   padding: 10px 5px 10px 5px;
   text-align: center;
   font-size: 22px;
@@ -91,11 +93,16 @@ nav {
   border-radius: 3px;
 }
 
+.destination {
+  display: inline-block;
+  margin-top: 4px;
+}
+
 .destination li {
   display: inline;
-  width: 70%;
+  width: 60%;
   line-height: 20px;
-  padding: 5px 0 5px 5px;
+  padding: 10px 0 5px 5px;
   color: #192853;
 }
 
@@ -110,10 +117,10 @@ nav {
 
 .frequency li {
   display: inline;
-  width: 70%;
+  width: 60%;
   font-size: 18px;
   line-height: 20px;
-  padding: 5px 0 5px 5px;
+  padding: 8px 0 5px 5px;
   color: #192853;
 }
 
@@ -128,10 +135,10 @@ nav {
 
 .frequency-special li {
   display: inline;
-  width: 70%;
+  width: 60%;
   font-size: 18px;
   line-height: 20px;
-  padding: 5px 0 5px 5px;
+  padding: 8px 0 5px 5px;
   color: #192853;
 }
 
@@ -144,6 +151,7 @@ nav {
   float: right;
   width: 5%;
   color: lightgray;
+  margin-top: -32px;
 }
 
 .bottom-navbar ul {

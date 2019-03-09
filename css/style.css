@@ -64,7 +64,11 @@ nav {
 .bus-list {
   width: 100%;
   box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+  height: 100%;
+  margin-bottom: 50px;
+  overflow: auto;
 }
+
 .bus {
   display: inline-block;
   width: 100%;
@@ -154,7 +158,8 @@ nav {
   margin-top: -32px;
 }
 
-.bottom-navbar ul {
+
+.bottom-navbar {
   position: fixed;
   height: 49px;
   bottom: 0;

@@ -9,6 +9,7 @@ body {
 
 .container {
   margin: 0 auto;
+  width: 100vw;
   max-width: 400px;
 }
 
@@ -55,12 +56,14 @@ nav {
 }
 
 .map img {
-  width: 100%;
+  width: 100vw;
+  max-width: 400px;
   padding-top: 100px;
   box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .bus-list {
+  width: 100vw;
   max-width: 400px;
   box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
   height: 100%;
@@ -162,6 +165,7 @@ nav {
   position: fixed;
   height: 49px;
   bottom: 0;
+  width: 100vw;
   max-width: 400px;
   padding: 5px;
   background-color: #EBECE7;
